@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 88%;
+    max-width: 70em;
+    margin: 1em auto;
+    line-height: 1.5;
+    font-family: "Sour Gummy", sans-serif;
+    background-color: black;
+    color: grey;
+}
+
+h1 {
+    padding: 3%;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.logo{
+    text-align: center;
+    font-family: "Sour Gummy", sans-serif;
+    color: palevioletred;
+}
+
+option {
+    color: white;
+    background-color: black;
+    font-family: "Sour Gummy", sans-serif;
+    cursor: pointer;
+    padding: 10px
+}
+
+select {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Sour Gummy", sans-serif;
+}
