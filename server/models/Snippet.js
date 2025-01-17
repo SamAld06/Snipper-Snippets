@@ -21,6 +21,14 @@ Snippet.init(
             len: [10, 500],
           },
         },
+        content: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            validate: {
+                notEmpty: true,
+                len: [1, 1000000],
+            },
+        },
         category: {
           type: DataTypes.ENUM,
           values: ["Java, JavaScript, Python, HTML, CSS, C, C++, C#, Ruby, Kotlin, Typescript"],
@@ -29,6 +37,10 @@ Snippet.init(
             notEmpty: true,
             len: [3, 50],
           },
+        },
+        user: {
+            type: DataTypes.STRING,
+
         }
     },
     {

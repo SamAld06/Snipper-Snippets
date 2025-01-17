@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Hello World!",
+        "description": "Your first ever snippet that you can keep forever!",
+        "content": "print(\"Hello World!\")",
+        "category": "Python",
+        "user": "All"
+    },
+    {
+        "id": 2,
+        "name": "Variables practice",
+        "description": "A snippet with some basic variables",
+        "content": "let str1 = \"Hello\"",
+        "category": "Javascript",
+        "user": "All"
+    }
+]
